@@ -3,6 +3,6 @@ export async function postTest(req, res, next) {
         console.log('Solicitud POST satisfactoria');
         res.status(201).json({ resultado: 'satisfactorio' });
     } catch (error) {
-        res.json({ error: error.message });
+        res.status(400).json({ error: error.message });
     }
 }
