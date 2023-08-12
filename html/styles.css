@@ -25,15 +25,16 @@ body {
 
 main {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 main .form {
-    width: 400px;
-    height: 300px;
-    padding: 1rem 4rem;
+    width: 300px;
+    height: 280px;
+    padding: 1rem;
     background-color: #4E4FEB;
     display: flex;
     gap: 1rem;
@@ -79,8 +80,8 @@ main .form button {
 }
 
 main .resp {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 280px;
     padding: 1rem;
     background-color: #068FFF;
     display: flex;
